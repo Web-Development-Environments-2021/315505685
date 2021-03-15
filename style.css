@@ -1,7 +1,58 @@
-#menu
-{
+#menu{
 	position: fixed;
 	width: 100%;
-	height: 35px;
-	background: white;
+	padding-top: 0;
+	margin-top: 0;
+	font-family: FreeMono, monospace;
+	background-color: cadetblue;
 }
+
+body{
+	background-color: rgb(141, 202, 204);
+	margin: 0;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+li {
+	display: inline;
+}
+
+li.menu{
+	background-color: cadetblue;
+	float: left;
+}
+
+
+ul {
+	margin: 0;
+	padding: 0;
+	align-self: center;
+  }
+  
+  
+  li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+	background-color: rgb(139, 169, 170);
+  }
+
+section{
+	  padding: 100px;
+	  margin: 40px;
+	  border-color: white;
+	  border: solid;
+	  border-width: 1px;
+  }
