@@ -52,13 +52,11 @@ li a:hover {
   }
 
 section{
+	border:1px solid white;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	direction: rtl;
 	padding: 20px;
 	margin: 40px;
-	border-color: white;
-	border: solid;
-	border-width: 1px;
 	text-align:center;
   }
 
@@ -71,11 +69,15 @@ h1{
 
 
 
-  img{
-	  margin: 20px;
-	  border: solid 5px rgb(190, 216, 224);
-  }
+img{
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+	border: solid 5px rgb(190, 216, 224);
+}
 
-  img.hover{
+img.hover{
 	border: solid 5px rgb(0, 0, 0);
+	width: 220px;
+	height: 220px;
 }
