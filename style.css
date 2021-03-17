@@ -1,5 +1,6 @@
 #menu{
 	position: fixed;
+	top: 0px;
 	width: 100%;
 	padding-top: 0;
 	margin-top: 0;
@@ -8,8 +9,9 @@
 }
 
 body{
-	background-color: rgb(141, 202, 204);
+	background-color: rgb(146, 217, 219);
 	margin: 0;
+	background-image: linear-gradient(to right, #4ca1af, #c4e0e5);
 }
 
 ul{
@@ -36,7 +38,7 @@ ul {
   }
   
   
-  li a {
+li a {
 	display: block;
 	color: white;
 	text-align: center;
@@ -44,15 +46,36 @@ ul {
 	text-decoration: none;
   }
   
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
+
+li a:hover {
 	background-color: rgb(139, 169, 170);
   }
 
 section{
-	  padding: 100px;
-	  margin: 40px;
-	  border-color: white;
-	  border: solid;
-	  border-width: 1px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	direction: rtl;
+	padding: 20px;
+	margin: 40px;
+	border-color: white;
+	border: solid;
+	border-width: 1px;
+	text-align:center;
   }
+
+h1{
+	color: rgb(83, 146, 148);
+	font-family: FreeMono, monospace;
+	font-size: 250%;
+	margin: 10px;
+}
+
+
+
+  img{
+	  margin: 20px;
+	  border: solid 5px rgb(190, 216, 224);
+  }
+
+  img.hover{
+	border: solid 5px rgb(0, 0, 0);
+}
