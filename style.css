@@ -56,6 +56,8 @@ section{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	direction: rtl;
 	padding: 20px;
+	padding-top: 30px;
+	padding-bottom: 50px;
 	margin: 40px;
 	text-align:center;
   }
@@ -80,4 +82,14 @@ img.hover{
 	border: solid 5px rgb(0, 0, 0);
 	width: 220px;
 	height: 220px;
+}
+
+img.like{
+	width: 100px;
+	height: 100px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: solid 2px rgb(190, 216, 224);
 }
