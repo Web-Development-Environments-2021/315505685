@@ -54,6 +54,7 @@ li a:hover {
 section{
 	border:1px solid white;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	
 	direction: rtl;
 	padding: 20px;
 	padding-top: 30px;
