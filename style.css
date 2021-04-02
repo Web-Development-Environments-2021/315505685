@@ -6,6 +6,11 @@
 	margin-top: 0;
 	font-family: FreeMono, monospace;
 	background-color: cadetblue;
+	z-index: 1000;
+}
+
+.fb-like{
+	z-index: 999;
 }
 
 body{
@@ -42,6 +47,7 @@ li a {
 	display: block;
 	color: white;
 	text-align: center;
+	height: 6%;
 	padding: 14px 16px;
 	text-decoration: none;
   }
