@@ -45,7 +45,6 @@ li a {
 	padding: 14px 16px;
 	text-decoration: none;
   }
-  
 
 li a:hover {
 	background-color: rgb(139, 169, 170);
@@ -70,19 +69,11 @@ h1{
 	margin: 10px;
 }
 
-
-
 img{
 	width: 200px;
 	height: 200px;
 	margin: 20px;
 	border: solid 5px rgb(190, 216, 224);
-}
-
-img.hover{
-	border: solid 5px rgb(0, 0, 0);
-	width: 220px;
-	height: 220px;
 }
 
 img.like{
