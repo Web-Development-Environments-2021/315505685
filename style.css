@@ -57,6 +57,7 @@ li a:hover {
   }
 
 table.answers{
+	font-size: 15px;
 	margin-top: 15px;
 	width: 80%;
 	border:2px solid cadetblue;
@@ -89,7 +90,7 @@ section{
 	border:1px solid white;
 	border-radius: 25px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	
+	font-size: 16px;
 	direction: rtl;
 	padding: 20px;
 	padding-top: 30px;
