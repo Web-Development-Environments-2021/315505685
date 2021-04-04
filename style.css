@@ -56,8 +56,32 @@ li a:hover {
 	background-color: rgb(139, 169, 170);
   }
 
+table.answers{
+	margin-top: 15px;
+	width: 80%;
+	border:2px solid cadetblue;
+	border-collapse: collapse;
+}
+
+tr{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+th{
+	font-weight: normal;
+	background:cadetblue;
+	color: white;
+}
+
+a:visited{
+	color: black;
+}
+
+
 section{
 	border:1px solid white;
+	border-radius: 25px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	
 	direction: rtl;
