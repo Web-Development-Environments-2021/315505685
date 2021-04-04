@@ -74,8 +74,11 @@ th{
 	color: white;
 }
 
-a:visited{
+#covid:visited{
 	color: black;
+}
+#covid:active{
+	color: rgb(23, 77, 99);
 }
 
 
