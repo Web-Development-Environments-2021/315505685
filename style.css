@@ -80,6 +80,9 @@ th{
 #covid:active{
 	color: rgb(23, 77, 99);
 }
+#covid:link{
+	color: rgb(24, 91, 117);
+}
 
 
 section{
