@@ -112,14 +112,17 @@ section{
 	padding-top: 30px;
 	padding-bottom: 50px;
 	margin: 40px;
+	margin-top: 50px;
 	text-align:center;
   }
 
 h1{
-	color: rgb(83, 146, 148);
+	color:#2D3185;
 	font-family: FreeMono, monospace;
 	font-size: 250%;
 	margin: 10px;
+	text-decoration: underline;
+	text-decoration-color: white;
 }
 
 img.photos{
