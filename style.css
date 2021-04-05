@@ -5,8 +5,24 @@
 	padding-top: 0;
 	margin-top: 0;
 	font-family: FreeMono, monospace;
+	font-size: 18px;
 	background-color: cadetblue;
 	z-index: 1000;
+}
+
+#big_logo{
+	margin-top: 90px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+}
+
+#small_logo{
+	float: right;
+	margin: 10px;
+	height: 35px;
+	z-index: 1001;
 }
 
 .fb-like{
@@ -47,7 +63,7 @@ li a {
 	display: block;
 	color: white;
 	text-align: center;
-	height: 6%;
+	height: 26px;
 	padding: 14px 16px;
 	text-decoration: none;
   }
@@ -106,9 +122,16 @@ h1{
 	margin: 10px;
 }
 
-img{
+img.photos{
 	width: 200px;
 	height: 200px;
+	margin: 20px;
+	border: solid 5px rgb(190, 216, 224);
+}
+
+img.qr{
+	width: 220px;
+	height: 220px;
 	margin: 20px;
 	border: solid 5px rgb(190, 216, 224);
 }

@@ -4,7 +4,12 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
+    <div id="up">
+      
+    </div>
+    
     <div id="menu">
+      
       <ul>
         <li class="menu"><a href="#about">About Me</a></li>
         <li class="menu"><a href="#photos">My Photos</a></li>
@@ -13,11 +18,14 @@
         <li class="menu"><a href="#qrcoder">QR code</a></li>
         <li class="menu"><a href="#spa">Q&A</a></li>
         <li class="menu"><a href="#contact">Contact Me</a></li>
+        <img id="small_logo" onclick="topFunction()" src="photos/logo.png">
       </ul>
-    
     </div>
+
+    <img id="big_logo" src="photos/logo.png" alt="logo_b">
+
     
-    <section id="about" class="section" style="margin-top: 90px;">
+    <section id="about" class="section">
       <h1>About Me</h1>
       היי, קוראים לי איציק סאיג ואני סבא  מאושר ל-15 נכדים!
       <br/>
@@ -34,18 +42,18 @@
     <section id="photos" class="section" style="padding-bottom: 30px;">
       <h1>My Photos</h1>
       <div id="photos">
-        <img src="photos/grandpa_and_beer.jpg" alt="Photo1">
-        <img src="photos/grandpa_and_sun.jpg" alt="Photo2">
-        <img src="photos/grandpa_and_wine.jpg" alt="Photo3">
-        <img src="photos/grandpa_and_smile.jpg" alt="Photo4">
-        <img src="photos/grandpa_and_chair.jpg" alt="Photo5">
-        <img src="photos/grandpa_and_grandma2.jpg.jpeg" alt="Photo6">
-        <img src="photos/grandpa_and_mom.jpeg" alt="Photo7">
-        <img src="photos/grandpa_and_mor.jpeg" alt="Photo8">
-        <img src="photos/young_grandpa.jpeg" alt="Photo9">
-        <img src="photos/young_grandpa2.jpeg" alt="Photo10">
-        <img src="photos/grandpa_and_grandma.jpg" alt="Photo11">
-        <img src="photos/grandpa_and_love.jpg" alt="Photo12">
+        <img class="photos" src="photos/grandpa_and_beer.jpg" alt="Photo1">
+        <img class="photos" src="photos/grandpa_and_sun.jpg" alt="Photo2">
+        <img class="photos" src="photos/grandpa_and_wine.jpg" alt="Photo3">
+        <img class="photos" src="photos/grandpa_and_smile.jpg" alt="Photo4">
+        <img class="photos" src="photos/grandpa_and_chair.jpg" alt="Photo5">
+        <img class="photos" src="photos/grandpa_and_grandma2.jpg.jpeg" alt="Photo6">
+        <img class="photos" src="photos/grandpa_and_mom.jpeg" alt="Photo7">
+        <img class="photos" src="photos/grandpa_and_mor.jpeg" alt="Photo8">
+        <img class="photos" src="photos/young_grandpa.jpeg" alt="Photo9">
+        <img class="photos" src="photos/young_grandpa2.jpeg" alt="Photo10">
+        <img class="photos" src="photos/grandpa_and_grandma.jpg" alt="Photo11">
+        <img class="photos" src="photos/grandpa_and_love.jpg" alt="Photo12">
       </div>
     </section>
 
@@ -230,6 +238,12 @@
       $(document).scroll(function() {
           $('#menu').toggle($(this).scrollTop()>1000)
       });​
+    </script>
+    <script type="text/javascript">
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
     </script>
   </body>
 </html>
