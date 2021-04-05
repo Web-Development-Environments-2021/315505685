@@ -203,12 +203,23 @@ textarea{
 	color: black;
 }
 
-textarea:hover {
-	background-color: #ebebeb;
-	border-bottom: 4px solid #afd6dd;
-	height: 160px;
-	width: 400px;
-	transition: ease 0.5s;
+div.emojionearea-editor{
+	font-family: monospace!important;
+	border: 2px solid #afd6dd!important;
+	border-radius: 4px!important;
+	margin: 5px!important;
+	background: transparent!important;
+	width: 400px!important;
+	height: 150px!important;
+	color: black!important;
+}
+
+div.emojionearea-editor:hover {
+	background-color: #ebebeb!important;
+	border-bottom: 4px solid #afd6dd!important;
+	height: 160px!important;
+	width: 400px!important;
+	transition: ease 0.5s!important;
 }
 
 .button{
@@ -229,3 +240,4 @@ textarea:hover {
 	width: 100px;
 	border-bottom: 2px solid #afd6dd;
 }
+
