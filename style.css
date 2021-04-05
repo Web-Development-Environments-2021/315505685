@@ -206,7 +206,7 @@ textarea{
 textarea:hover {
 	background-color: #ebebeb;
 	border-bottom: 4px solid #afd6dd;
-	height: 200px;
+	height: 160px;
 	width: 400px;
 	transition: ease 0.5s;
 }
