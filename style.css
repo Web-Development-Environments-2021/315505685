@@ -91,6 +91,13 @@ th{
 	color: white;
 }
 
+td{
+	padding: 4px;
+}
+td.line{
+	padding: 1px;
+}
+
 #covid:visited{
 	color: black;
 }
@@ -112,7 +119,6 @@ section{
 	padding-top: 30px;
 	padding-bottom: 50px;
 	margin: 40px;
-	margin-top: 50px;
 	text-align:center;
   }
 
