@@ -1,16 +1,18 @@
 <div dir='rtl' align='right'>
 בחרתי לעשות את האתר על סבא שלי 😊
-
+<br>
   
 **שם:** שקד אלמוג
-
+<br>
 **תעודת זהות:** 315505685
-
+<br>
 **כתובת האתר:** https://web-development-environments-2021.github.io/315505685/
-
+<br>
+<br>
   
 
 דברים שכדאי שהבודק ידע:
+<br>
 
  - לחיצה על הלוגו בתפריט תפיץ את הגולש לראש העמוד.
  - גודל גלריית התמונות משתנה בהתאם לגודל החלון, ולכן מספר התמונות ישתנו בהתאם לגודל הגלריה.
