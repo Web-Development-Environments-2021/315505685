@@ -183,6 +183,7 @@ input {
 	margin: 5px;
 	color: black;
   }
+
 input:hover {
 	background-color: #ebebeb;
 	border-bottom: 4px solid #afd6dd;
@@ -190,6 +191,16 @@ input:hover {
 	width: 400px;
 	transition: ease 0.5s;
 	
+}
+
+.emojionearea{
+	border: 0px;
+}
+
+.emojionearea-button{
+	position: inherit!important;
+	margin-left: auto!important;
+	margin-right: auto!important;
 }
 
 textarea{
@@ -209,16 +220,21 @@ div.emojionearea-editor{
 	border-radius: 4px!important;
 	margin: 5px!important;
 	background: transparent!important;
-	width: 400px!important;
+	width: 408px!important;
 	height: 150px!important;
 	color: black!important;
+	margin-left: auto!important;
+	margin-right: auto!important;
+	text-align: left;
+	padding: 1px 2px 1px 2px !important;
+
 }
 
 div.emojionearea-editor:hover {
 	background-color: #ebebeb!important;
 	border-bottom: 4px solid #afd6dd!important;
 	height: 160px!important;
-	width: 400px!important;
+	width: 408px!important;
 	transition: ease 0.5s!important;
 }
 
@@ -239,5 +255,9 @@ div.emojionearea-editor:hover {
 	height: 30px;
 	width: 100px;
 	border-bottom: 2px solid #afd6dd;
+}
+
+::placeholder{
+	color: #a9a9a9;
 }
 
